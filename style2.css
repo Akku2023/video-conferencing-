@@ -1,0 +1,27 @@
+#video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+video {
+  width: 80%;
+  height: auto;
+}
+  #local-video {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+
+  #join-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
